@@ -1,0 +1,173 @@
+.topnav {
+	background-color: black;
+	border-bottom: 4px solid yellow;
+	display: flex;	
+}
+
+.header {
+	color: yellow;
+	font-size: 40px;
+	font-family: Cooper Black;
+	width: 50%;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.bg {
+	width: 100%;
+	z-index: 0;
+}
+
+.container {
+	justify-content: flex-end;
+	padding: 10px;
+	height: 50px;
+}
+
+.nav-item {
+	font-size: 22px;
+}
+
+.nav-link {
+	color: white;
+	font-family: impact;
+}
+
+.active {
+	font-family: Calibri;
+}
+
+.h2-wrap {
+	background-color: #B8B8B8;
+	display: flex;
+	height: 60px;
+	justify-content: center;
+}
+
+.h2 {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.taste {
+	text-decoration: line-through;
+	color: #989898;
+}
+
+.are {
+	text-decoration: underline yellow;
+}
+
+.banner {
+	background: url(images/coworking.jpg)
+		center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 3%;
+	box-shadow: inset 0 0 5px black;
+}
+
+.blurb {
+	background: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 4%;
+	float: right;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+	opacity: 0.9;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.img-blurb {
+	margin: 0 0 1.5em 0;
+}
+
+.banner-btn {
+	font-family: Impact;
+	text-decoration: none;
+	letter-spacing: 1px;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: white;
+	border-radius: 5px;
+}
+
+.banner-btn:hover {
+	  background-color: yellow;
+	  color: black;
+	  text-decoration: none;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #eaeaea;
+    color: black;
+    opacity: 0.5;
+}
+
+.card-group {
+	height: 300px;
+	
+}
+
+.card {
+	float: left;
+	width: 75%;
+	padding: 10px;
+}
+
+.card-title {
+	font-family: Times new roman;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.card-text {
+	font-family: Calibri;
+	font-size: 20px;
+	margin: 0 0 1.5em 0;
+}
+
+.btn {
+    background-color: #B8B8B8;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Impact;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	width: 80%;
+	border-radius: 5px;
+}
+
+.btn-primary:hover {
+	  background-color: #B8B8B8;
+	  color: black;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 2% 3%;
+}
+
+.footer {
+	max-width: 1280px;
+	margin: auto;
+}
